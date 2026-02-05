@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Il Contrattino | Bar a Vin · Cupra Marittima</title>
+  <meta name="description" content="Il Contrattino - Bar a vin, aperitivo bar e bottega gastronomica nel cuore di Cupra Marittima. Vini selezionati, aperitivi, toast artigianali e prodotti del territorio.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Il Contrattino | Bar a Vin · Cupra Marittima">
+  <meta property="og:description" content="Wine bar, aperitivo bar e bottega gastronomica nel cuore di Cupra Marittima. Vini selezionati, aperitivi e prodotti del territorio.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="it_IT">
+
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Scroll Progress Indicator -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav__container">
+      <a href="#hero" class="nav__logo">
+        <span class="nav__crown">&#9813;</span>
+        Il Contrattino
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="Apri menu di navigazione">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#chi-siamo">Chi Siamo</a></li>
+        <li><a href="#offerta">La Nostra Offerta</a></li>
+        <li><a href="#galleria">Galleria</a></li>
+        <li><a href="#contatti">Dove Siamo</a></li>
+        <li><a href="#prenota" class="nav__prenota">Prenota</a></li>
+        <li>
+          <a href="https://www.instagram.com/contrattinocupra/" target="_blank" rel="noopener" class="nav__social" aria-label="Seguici su Instagram">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+            Instagram
+          </a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/61584475914605/" target="_blank" rel="noopener" class="nav__social" aria-label="Seguici su Facebook">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+            Facebook
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__crown">&#9813;</span>
+      <h1 class="hero__title">Il Contrattino</h1>
+      <p class="hero__subtitle">Bar a Vin &middot; Cupra Marittima</p>
+      <p class="hero__tagline">Aperitivo Bar &middot; Wine Bar &middot; Bottega</p>
+      <div class="hero__buttons">
+        <a href="#prenota" class="hero__cta hero__cta--filled">Prenota</a>
+        <a href="#chi-siamo" class="hero__cta">Scopri di pi&ugrave;</a>
+      </div>
+    </div>
+    <div class="hero__scroll-hint" aria-hidden="true">
+      <span></span>
+    </div>
+  </section>
+
+  <!-- Chi Siamo -->
+  <section class="section section--cream" id="chi-siamo">
+    <div class="container">
+      <div class="about">
+        <div class="about__text">
+          <span class="section__label">Chi Siamo</span>
+          <h2 class="section__title">Un angolo di <em>bella vita</em><br>sulla riviera adriatica</h2>
+          <p>Il Contrattino nasce dall'amore per l'aperitivo italiano nella sua forma pi&ugrave; autentica. Siamo un luogo dove il tempo rallenta, dove un calice di vino si accompagna a sapori semplici e curati, dove ogni dettaglio racconta una storia.</p>
+          <p>Nella cittadina di Cupra Marittima, tra il profumo del mare e la tradizione marchigiana, abbiamo creato uno spazio che &egrave; insieme wine bar, aperitivo bar e bottega gastronomica, un punto di incontro per chi cerca qualit&agrave;, autenticit&agrave; e quel piacere tutto italiano del ritrovarsi.</p>
+        </div>
+        <div class="about__image">
+          <img src="images/aaa.jpg" alt="L'ingresso del Contrattino Cupra Marittima" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- La Nostra Offerta -->
+  <section class="section section--white" id="offerta">
+    <div class="container">
+      <span class="section__label section__label--center">La Nostra Offerta</span>
+      <h2 class="section__title section__title--center">Quello che ci rende unici</h2>
+      <div class="offerings">
+        <div class="offering-card">
+          <div class="offering-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M32 8C32 8 16 20 16 36c0 8.837 7.163 16 16 16s16-7.163 16-16C48 20 32 8 32 8z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M32 52V8" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 3" opacity="0.4"/>
+            </svg>
+          </div>
+          <h3>Vini Selezionati</h3>
+          <p>Una selezione curata di etichette locali e nazionali, scelte per raccontare il meglio del territorio marchigiano e oltre.</p>
+        </div>
+        <div class="offering-card">
+          <div class="offering-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20 16h24l-2 32H22L20 16z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M16 16h32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="32" cy="32" r="6" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
+            </svg>
+          </div>
+          <h3>Aperitivi</h3>
+          <p>Cocktail classici e signature a base del nostro Contrattino Bitter, per un aperitivo che sa di tradizione e innovazione.</p>
+        </div>
+        <div class="offering-card">
+          <div class="offering-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <ellipse cx="32" cy="40" rx="18" ry="6" stroke="currentColor" stroke-width="2"/>
+              <path d="M14 40c0 0 2-20 18-20s18 20 18 20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <path d="M26 28c2-4 6-6 6-6s4 2 6 6" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
+            </svg>
+          </div>
+          <h3>Gastronomia</h3>
+          <p>Toast artigianali, taglieri e abbinamenti pensati per esaltare ogni calice. Prodotti freschi e del territorio.</p>
+        </div>
+        <div class="offering-card">
+          <div class="offering-card__icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="14" y="14" width="36" height="36" rx="4" stroke="currentColor" stroke-width="2"/>
+              <path d="M14 26h36M26 14v36" stroke="currentColor" stroke-width="1.5" opacity="0.4"/>
+              <circle cx="20" cy="20" r="2" fill="currentColor" opacity="0.3"/>
+              <circle cx="38" cy="38" r="2" fill="currentColor" opacity="0.3"/>
+            </svg>
+          </div>
+          <h3>Bottega</h3>
+          <p>Conserve, vini, prodotti tipici e specialit&agrave; gastronomiche da portare a casa. Un pezzo di Marche da regalare o regalarsi.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Il Nostro Aperitivo (feature section) -->
+  <section class="section section--navy" id="aperitivo">
+    <div class="container">
+      <div class="feature">
+        <div class="feature__image">
+          <img src="images/123.jpg" alt="Contrattino Aperitivo Bitter biologico" loading="lazy">
+        </div>
+        <div class="feature__text">
+          <span class="section__label section__label--light">Since 1867</span>
+          <h2 class="section__title section__title--light">Contrattino<br>Aperitivo Bitter</h2>
+          <p class="feature__desc">Biologico e organico, il Contrattino Aperitivo Bitter &egrave; il cuore della nostra identit&agrave;. Una ricetta che dal 1867 racconta la tradizione italiana dell'aperitivo nella sua forma pi&ugrave; pura e autentica.</p>
+          <p class="feature__desc">Ogni bottiglia &egrave; un invito a rallentare, a godersi il momento, a celebrare la convivialit&agrave; che da sempre ci contraddistingue.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galleria -->
+  <section class="section section--cream" id="galleria">
+    <div class="container">
+      <span class="section__label section__label--center">Galleria</span>
+      <h2 class="section__title section__title--center">Il nostro mondo</h2>
+      <div class="gallery">
+        <div class="gallery__item gallery__item--wide">
+          <img src="images/12.jpg" alt="La selezione vini del Contrattino" loading="lazy">
+          <div class="gallery__overlay">
+            <span>La selezione vini</span>
+          </div>
+        </div>
+        <div class="gallery__item">
+          <img src="images/unnamed.jpg" alt="Toast artigianale su porcellana d'epoca" loading="lazy">
+          <div class="gallery__overlay">
+            <span>Toast artigianali</span>
+          </div>
+        </div>
+        <div class="gallery__item">
+          <img src="images/aaa.jpg" alt="Il bancone con pane fresco e conserve" loading="lazy">
+          <div class="gallery__overlay">
+            <span>La bottega</span>
+          </div>
+        </div>
+        <div class="gallery__item gallery__item--wide">
+          <img src="images/2025-11-27.jpg" alt="Il bancone gastronomia del Contrattino" loading="lazy">
+          <div class="gallery__overlay">
+            <span>Gastronomia</span>
+          </div>
+        </div>
+      </div>
+      <div class="gallery__cta">
+        <a href="https://www.instagram.com/contrattinocupra/" target="_blank" rel="noopener" class="btn btn--outline">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+          Instagram
+        </a>
+        <a href="https://www.facebook.com/61584475914605/" target="_blank" rel="noopener" class="btn btn--outline">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          Facebook
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dove Siamo -->
+  <section class="section section--white" id="contatti">
+    <div class="container">
+      <span class="section__label section__label--center">Dove Siamo</span>
+      <h2 class="section__title section__title--center">Info utili</h2>
+      <div class="contact">
+        <div class="contact__info">
+          <div class="contact__card">
+            <div class="contact__card-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <h3>Indirizzo</h3>
+              <p>Via Adriatica Sud, 26 <br>63064 Cupra Marittima (AP)</p>
+            </div>
+          </div>
+          <div class="contact__card">
+            <div class="contact__card-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div>
+              <h3>Orari</h3>
+              <p>Lun, Gio &ndash; Dom: 18:00 &ndash; 21:30<br>Mar, Mer: Chiuso</p>
+            </div>
+          </div>
+          <div class="contact__card">
+            <div class="contact__card-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            </div>
+            <div>
+              <h3>Contatti</h3>
+              <p><a href="tel:+393272334659">327 233 4659</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="contact__map">
+          <iframe
+            src="https://www.google.com/maps?ll=43.014851,13.862858&z=19&t=m&hl=it&gl=IT&mapclient=embed&cid=9784783939811387209&output=embed"
+            width="100%"
+            height="400"
+            style="border:0; border-radius: 12px;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Posizione Contrattino Cupra Marittima">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Prenota -->
+  <section class="section prenota-section" id="prenota">
+    <div class="container">
+      <div class="prenota">
+        <span class="section__label section__label--center">Prenota</span>
+        <h2 class="section__title section__title--center">Vieni a trovarci</h2>
+        <p class="prenota__desc">Contattaci per riservare il tuo posto o per qualsiasi informazione.</p>
+        <div class="prenota__buttons">
+          <a href="tel:+393272334659" class="btn btn--call">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            Chiama
+          </a>
+          <a href="https://wa.me/393272334659" target="_blank" rel="noopener" class="btn btn--whatsapp">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div class="footer__brand">
+          <span class="footer__crown">&#9813;</span>
+          <span class="footer__name">Il Contrattino</span>
+          <span class="footer__location">Cupra Marittima</span>
+        </div>
+        <div class="footer__links">
+          <a href="#chi-siamo">Chi Siamo</a>
+          <a href="#offerta">La Nostra Offerta</a>
+          <a href="#galleria">Galleria</a>
+          <a href="#contatti">Dove Siamo</a>
+          <a href="https://www.instagram.com/contrattinocupra/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="https://www.facebook.com/61584475914605/" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </a>
+        </div>
+        <p class="footer__copy">&copy; 2026 Il Contrattino Cupra Marittima. Tutti i diritti riservati.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp CTA (mobile) -->
+  <a href="https://wa.me/393272334659" target="_blank" rel="noopener" class="fab-whatsapp" aria-label="Contattaci su WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <!-- Back to top button -->
+  <button class="back-to-top" id="backToTop" aria-label="Torna in cima">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <!-- Gallery Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visualizzatore immagini">
+    <button class="lightbox__close" id="lightboxClose" aria-label="Chiudi">&times;</button>
+    <img class="lightbox__img" id="lightboxImg" src="" alt="">
+    <button class="lightbox__nav lightbox__nav--prev" id="lightboxPrev" aria-label="Immagine precedente">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <button class="lightbox__nav lightbox__nav--next" id="lightboxNext" aria-label="Immagine successiva">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 6 15 12 9 18"/></svg>
+    </button>
+  </div>
+
+  <script>
+    // --- Navbar scroll effect ---
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('nav--scrolled', window.scrollY > 50);
+    });
+
+    // --- Mobile menu toggle ---
+    const navToggle = document.getElementById('navToggle');
+    const navMenu = document.getElementById('navMenu');
+    navToggle.addEventListener('click', () => {
+      navToggle.classList.toggle('active');
+      navMenu.classList.toggle('active');
+      document.body.classList.toggle('menu-open');
+    });
+
+    // Close mobile menu on link click
+    navMenu.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navToggle.classList.remove('active');
+        navMenu.classList.remove('active');
+        document.body.classList.remove('menu-open');
+      });
+    });
+
+    // --- Smooth scroll ---
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+
+    // --- Scroll progress indicator ---
+    const scrollProgress = document.getElementById('scrollProgress');
+    window.addEventListener('scroll', () => {
+      const scrollTop = window.scrollY;
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const scrollPercent = (scrollTop / docHeight) * 100;
+      scrollProgress.style.width = scrollPercent + '%';
+    });
+
+    // --- Back to top button ---
+    const backToTop = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => {
+      backToTop.classList.toggle('visible', window.scrollY > 600);
+    });
+    backToTop.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // --- Gallery Lightbox ---
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightboxImg');
+    const lightboxClose = document.getElementById('lightboxClose');
+    const lightboxPrev = document.getElementById('lightboxPrev');
+    const lightboxNext = document.getElementById('lightboxNext');
+    const galleryItems = document.querySelectorAll('.gallery__item');
+    let currentImageIndex = 0;
+
+    const galleryImages = Array.from(galleryItems).map(item => {
+      const img = item.querySelector('img');
+      return { src: img.src, alt: img.alt };
+    });
+
+    galleryItems.forEach((item, index) => {
+      item.addEventListener('click', () => {
+        currentImageIndex = index;
+        openLightbox();
+      });
+    });
+
+    function openLightbox() {
+      lightboxImg.src = galleryImages[currentImageIndex].src;
+      lightboxImg.alt = galleryImages[currentImageIndex].alt;
+      lightbox.classList.add('active');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox() {
+      lightbox.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+
+    lightboxClose.addEventListener('click', closeLightbox);
+    lightbox.addEventListener('click', (e) => {
+      if (e.target === lightbox) closeLightbox();
+    });
+
+    lightboxPrev.addEventListener('click', (e) => {
+      e.stopPropagation();
+      currentImageIndex = (currentImageIndex - 1 + galleryImages.length) % galleryImages.length;
+      lightboxImg.src = galleryImages[currentImageIndex].src;
+      lightboxImg.alt = galleryImages[currentImageIndex].alt;
+    });
+
+    lightboxNext.addEventListener('click', (e) => {
+      e.stopPropagation();
+      currentImageIndex = (currentImageIndex + 1) % galleryImages.length;
+      lightboxImg.src = galleryImages[currentImageIndex].src;
+      lightboxImg.alt = galleryImages[currentImageIndex].alt;
+    });
+
+    // Keyboard navigation for lightbox
+    document.addEventListener('keydown', (e) => {
+      if (!lightbox.classList.contains('active')) return;
+      if (e.key === 'Escape') closeLightbox();
+      if (e.key === 'ArrowLeft') lightboxPrev.click();
+      if (e.key === 'ArrowRight') lightboxNext.click();
+    });
+
+    // --- Scroll reveal animation ---
+    const observerOptions = { threshold: 0.15, rootMargin: '0px 0px -50px 0px' };
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('revealed');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+
+    document.querySelectorAll('.about, .offering-card, .feature, .gallery__item, .prenota, .contact__card, .contact__map').forEach(el => {
+      el.classList.add('reveal');
+      observer.observe(el);
+    });
+
+    // --- Active nav link highlighting ---
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav__menu a[href^="#"]');
+
+    const sectionObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const id = entry.target.getAttribute('id');
+          navLinks.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === '#' + id) {
+              link.classList.add('active');
+            }
+          });
+        }
+      });
+    }, { threshold: 0.3, rootMargin: '-80px 0px -50% 0px' });
+
+    sections.forEach(section => sectionObserver.observe(section));
+  </script>
+
+</body>
+</html>
