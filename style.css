@@ -600,12 +600,37 @@ a {
   border-color: var(--coral-soft);
 }
 
+.offering-card__bg-icon {
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 320px;
+  height: 320px;
+  color: rgba(42, 27, 61, 0.055);
+  pointer-events: none;
+  z-index: 0;
+  stroke-width: 0.8;
+  transition: transform 0.45s ease, color 0.45s ease;
+}
+
+.offering-card:hover .offering-card__bg-icon {
+  transform: translateX(-50%) scale(1.07);
+  color: rgba(184, 70, 123, 0.11);
+}
+
+.offering-card::before {
+  z-index: 2;
+}
+
 .offering-card__icon {
   width: 56px;
   height: 56px;
   margin: 0 auto 1.5rem;
   color: var(--coral);
   transition: transform var(--transition);
+  position: relative;
+  z-index: 1;
 }
 
 .offering-card:hover .offering-card__icon {
@@ -623,12 +648,16 @@ a {
   font-weight: 600;
   color: var(--text-dark);
   margin-bottom: 0.75rem;
+  position: relative;
+  z-index: 1;
 }
 
 .offering-card p {
   font-size: 0.9rem;
   line-height: 1.7;
   color: var(--text-light);
+  position: relative;
+  z-index: 1;
 }
 
 /* --- Feature Section (Aperitivo) --- */
